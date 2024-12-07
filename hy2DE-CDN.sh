@@ -16,8 +16,8 @@ listen: :49616
 #有域名，使用CA证书
 acme:
   domains:
-    - test.heybro.bid #你的域名，需要先解析到服务器ip
-  email: xxx@gmail.com
+    - binclouddev4cdn.bjghpixman.us.kg #你的域名，需要先解析到服务器ip
+  email: bjghsparepartsdep@gmail.com
 
 #使用自签名证书
 tls:
