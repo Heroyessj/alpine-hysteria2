@@ -10,14 +10,14 @@ GENPASS="$(generate_random_password)"
 
 echo_hysteria_config_yaml() {
   cat << EOF
-listen: :49385
+listen: :49616
 
 
 #有域名，使用CA证书
-#acme:
-#  domains:
-#    - test.heybro.bid #你的域名，需要先解析到服务器ip
-#  email: xxx@gmail.com
+acme:
+  domains:
+    - test.heybro.bid #你的域名，需要先解析到服务器ip
+  email: xxx@gmail.com
 
 #使用自签名证书
 tls:
