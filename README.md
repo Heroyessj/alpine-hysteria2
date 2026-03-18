@@ -1,10 +1,20 @@
 # alpine-hysteria2
 在alpine中安装hysteria2
+注意amd64构架 arm64构架
+方法 uname -m
+# x86_64 = amd64
+# aarch64 = arm64
+# i686 = 386
 
-## 一键食用
+## 一键食用amd64
 ```
-wget -O hy2.sh https://raw.githubusercontent.com/Heroyessj/alpine-hysteria2/main/hy2.sh  && sh hy2.sh
+wget -O hy2.sh https://raw.githubusercontent.com/Heroyessj/alpine-hysteria2/main/hy2-amd64.sh  && sh hy2.sh
 ```
+## 一键食用arm64
+```
+wget -O hy2.sh https://raw.githubusercontent.com/Heroyessj/alpine-hysteria2/main/hy2-arm64.sh  && sh hy2.sh
+```
+
 重复执行，会覆盖密码。  
 
 ## 说明：  
